@@ -1,4 +1,3 @@
-!pip install pyTelegramBotAPI
 import telebot
 import random
 from telebot import types
@@ -26,4 +25,3 @@ def handle_text(message):
     bot.send_message(message.chat.id, answer)
 # Запускаем бота
 bot.polling(none_stop=True, interval=0)
-
